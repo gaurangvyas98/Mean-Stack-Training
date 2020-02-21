@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+
+    <!-- action sends data to server, if action is not there in form it will automatically send data to the given server -->
+    <!-- form action attribute sends all the data to home route "/"  -->
+    <!-- TO GET DATA FROM HTML WE HAVE TO INSTALL BODYPARSER npm package -->
+
+    <form action="/" method="post">
+        <input type="text" name="n1" placeholder="enter 1st number">
+        <input type="text" name="n2" placeholder="enter 2nd number">
+        <button type="submit" name="submit">Calculate</button>
+    </form>
+</body>
+</html>
